@@ -11,6 +11,10 @@ body {
     justify-content: center;
 }
 
+img {
+    width: 60%;
+}
+
 main {
     width: 60%;
 }
