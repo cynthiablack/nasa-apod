@@ -1,0 +1,71 @@
+body {
+    background: rgb(2,0,50);
+    background: radial-gradient(circle, rgba(2,0,50,1) 0%, rgba(22,22,83,1) 41%, rgba(59,53,83,1) 80%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6vh;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+main {
+    width: 60%;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Alfa Slab One', cursive;;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Poiret One', cursive;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+/* Form Styling */
+button,
+input {
+    border: 1px solid #fff;
+    font-size: 1.25rem;
+}
+
+button {
+    border-radius:0 10px 10px 0;
+    height: 3.75vh;
+    margin: 1vh 1vh 0 0;
+    width: 20%;
+}
+
+button:hover {
+    font-weight: 700;
+}
+
+form {
+    width: 70%;
+}
+
+input {
+    border-radius:10px 0 0 10px;
+    height: 3.25vh;
+    width: 70%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+    main {
+        width: 80%;
+    }
+}
